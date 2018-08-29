@@ -1,5 +1,4 @@
 function [ nabla_b,nabla_w ] = backprop( A,W,Z,Y )
-%网页链接中的4个公式，计算权值和偏置的修正量
 %BACKPROP Summary of this function goes here
 %   Detailed explanation goes here
     layer_num = size(A,2);
